@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9FF258244E9C950067E409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FF257244E9C950067E409 /* AppDelegate.swift */; };
+		CD9FF25A244E9C950067E409 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FF259244E9C950067E409 /* SceneDelegate.swift */; };
+		CD9FF25C244E9C950067E409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FF25B244E9C950067E409 /* ContentView.swift */; };
+		CD9FF25E244E9C980067E409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9FF25D244E9C980067E409 /* Assets.xcassets */; };
+		CD9FF261244E9C980067E409 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9FF260244E9C980067E409 /* Preview Assets.xcassets */; };
+		CD9FF264244E9C980067E409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9FF262244E9C980067E409 /* LaunchScreen.storyboard */; };
+		CD9FF26F244E9C980067E409 /* FiberstreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FF26E244E9C980067E409 /* FiberstreamTests.swift */; };
+		CD9FF27A244E9C980067E409 /* FiberstreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FF279244E9C980067E409 /* FiberstreamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9FF26B244E9C980067E409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9FF24C244E9C950067E409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9FF253244E9C950067E409;
+			remoteInfo = Fiberstream;
+		};
+		CD9FF276244E9C980067E409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9FF24C244E9C950067E409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9FF253244E9C950067E409;
+			remoteInfo = Fiberstream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9FF254244E9C950067E409 /* Fiberstream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiberstream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9FF257244E9C950067E409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9FF259244E9C950067E409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD9FF25B244E9C950067E409 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD9FF25D244E9C980067E409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9FF260244E9C980067E409 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD9FF263244E9C980067E409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9FF265244E9C980067E409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9FF26A244E9C980067E409 /* FiberstreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiberstreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9FF26E244E9C980067E409 /* FiberstreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberstreamTests.swift; sourceTree = "<group>"; };
+		CD9FF270244E9C980067E409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9FF275244E9C980067E409 /* FiberstreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiberstreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9FF279244E9C980067E409 /* FiberstreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberstreamUITests.swift; sourceTree = "<group>"; };
+		CD9FF27B244E9C980067E409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9FF251244E9C950067E409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF267244E9C980067E409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF272244E9C980067E409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9FF24B244E9C950067E409 = {
+			isa = PBXGroup;
+			children = (
+				CD9FF256244E9C950067E409 /* Fiberstream */,
+				CD9FF26D244E9C980067E409 /* FiberstreamTests */,
+				CD9FF278244E9C980067E409 /* FiberstreamUITests */,
+				CD9FF255244E9C950067E409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9FF255244E9C950067E409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF254244E9C950067E409 /* Fiberstream.app */,
+				CD9FF26A244E9C980067E409 /* FiberstreamTests.xctest */,
+				CD9FF275244E9C980067E409 /* FiberstreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9FF256244E9C950067E409 /* Fiberstream */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF257244E9C950067E409 /* AppDelegate.swift */,
+				CD9FF259244E9C950067E409 /* SceneDelegate.swift */,
+				CD9FF25B244E9C950067E409 /* ContentView.swift */,
+				CD9FF25D244E9C980067E409 /* Assets.xcassets */,
+				CD9FF262244E9C980067E409 /* LaunchScreen.storyboard */,
+				CD9FF265244E9C980067E409 /* Info.plist */,
+				CD9FF25F244E9C980067E409 /* Preview Content */,
+			);
+			path = Fiberstream;
+			sourceTree = "<group>";
+		};
+		CD9FF25F244E9C980067E409 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF260244E9C980067E409 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD9FF26D244E9C980067E409 /* FiberstreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF26E244E9C980067E409 /* FiberstreamTests.swift */,
+				CD9FF270244E9C980067E409 /* Info.plist */,
+			);
+			path = FiberstreamTests;
+			sourceTree = "<group>";
+		};
+		CD9FF278244E9C980067E409 /* FiberstreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF279244E9C980067E409 /* FiberstreamUITests.swift */,
+				CD9FF27B244E9C980067E409 /* Info.plist */,
+			);
+			path = FiberstreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9FF253244E9C950067E409 /* Fiberstream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9FF27E244E9C980067E409 /* Build configuration list for PBXNativeTarget "Fiberstream" */;
+			buildPhases = (
+				CD9FF250244E9C950067E409 /* Sources */,
+				CD9FF251244E9C950067E409 /* Frameworks */,
+				CD9FF252244E9C950067E409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fiberstream;
+			productName = Fiberstream;
+			productReference = CD9FF254244E9C950067E409 /* Fiberstream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9FF269244E9C980067E409 /* FiberstreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9FF281244E9C980067E409 /* Build configuration list for PBXNativeTarget "FiberstreamTests" */;
+			buildPhases = (
+				CD9FF266244E9C980067E409 /* Sources */,
+				CD9FF267244E9C980067E409 /* Frameworks */,
+				CD9FF268244E9C980067E409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9FF26C244E9C980067E409 /* PBXTargetDependency */,
+			);
+			name = FiberstreamTests;
+			productName = FiberstreamTests;
+			productReference = CD9FF26A244E9C980067E409 /* FiberstreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9FF274244E9C980067E409 /* FiberstreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9FF284244E9C980067E409 /* Build configuration list for PBXNativeTarget "FiberstreamUITests" */;
+			buildPhases = (
+				CD9FF271244E9C980067E409 /* Sources */,
+				CD9FF272244E9C980067E409 /* Frameworks */,
+				CD9FF273244E9C980067E409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9FF277244E9C980067E409 /* PBXTargetDependency */,
+			);
+			name = FiberstreamUITests;
+			productName = FiberstreamUITests;
+			productReference = CD9FF275244E9C980067E409 /* FiberstreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9FF24C244E9C950067E409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Gmedia;
+				TargetAttributes = {
+					CD9FF253244E9C950067E409 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CD9FF269244E9C980067E409 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CD9FF253244E9C950067E409;
+					};
+					CD9FF274244E9C980067E409 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CD9FF253244E9C950067E409;
+					};
+				};
+			};
+			buildConfigurationList = CD9FF24F244E9C950067E409 /* Build configuration list for PBXProject "Fiberstream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9FF24B244E9C950067E409;
+			productRefGroup = CD9FF255244E9C950067E409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9FF253244E9C950067E409 /* Fiberstream */,
+				CD9FF269244E9C980067E409 /* FiberstreamTests */,
+				CD9FF274244E9C980067E409 /* FiberstreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9FF252244E9C950067E409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9FF264244E9C980067E409 /* LaunchScreen.storyboard in Resources */,
+				CD9FF261244E9C980067E409 /* Preview Assets.xcassets in Resources */,
+				CD9FF25E244E9C980067E409 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF268244E9C980067E409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF273244E9C980067E409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9FF250244E9C950067E409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9FF258244E9C950067E409 /* AppDelegate.swift in Sources */,
+				CD9FF25A244E9C950067E409 /* SceneDelegate.swift in Sources */,
+				CD9FF25C244E9C950067E409 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF266244E9C980067E409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9FF26F244E9C980067E409 /* FiberstreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9FF271244E9C980067E409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9FF27A244E9C980067E409 /* FiberstreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9FF26C244E9C980067E409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9FF253244E9C950067E409 /* Fiberstream */;
+			targetProxy = CD9FF26B244E9C980067E409 /* PBXContainerItemProxy */;
+		};
+		CD9FF277244E9C980067E409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9FF253244E9C950067E409 /* Fiberstream */;
+			targetProxy = CD9FF276244E9C980067E409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9FF262244E9C980067E409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9FF263244E9C980067E409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9FF27C244E9C980067E409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9FF27D244E9C980067E409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9FF27F244E9C980067E409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fiberstream/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fiberstream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.Fiberstream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9FF280244E9C980067E409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fiberstream/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fiberstream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.Fiberstream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9FF282244E9C980067E409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				INFOPLIST_FILE = FiberstreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.FiberstreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiberstream.app/Fiberstream";
+			};
+			name = Debug;
+		};
+		CD9FF283244E9C980067E409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				INFOPLIST_FILE = FiberstreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.FiberstreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiberstream.app/Fiberstream";
+			};
+			name = Release;
+		};
+		CD9FF285244E9C980067E409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				INFOPLIST_FILE = FiberstreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.FiberstreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fiberstream;
+			};
+			name = Debug;
+		};
+		CD9FF286244E9C980067E409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A639MSY8Y;
+				INFOPLIST_FILE = FiberstreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmedia.net.id.FiberstreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fiberstream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9FF24F244E9C950067E409 /* Build configuration list for PBXProject "Fiberstream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9FF27C244E9C980067E409 /* Debug */,
+				CD9FF27D244E9C980067E409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9FF27E244E9C980067E409 /* Build configuration list for PBXNativeTarget "Fiberstream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9FF27F244E9C980067E409 /* Debug */,
+				CD9FF280244E9C980067E409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9FF281244E9C980067E409 /* Build configuration list for PBXNativeTarget "FiberstreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9FF282244E9C980067E409 /* Debug */,
+				CD9FF283244E9C980067E409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9FF284244E9C980067E409 /* Build configuration list for PBXNativeTarget "FiberstreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9FF285244E9C980067E409 /* Debug */,
+				CD9FF286244E9C980067E409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9FF24C244E9C950067E409 /* Project object */;
+}
